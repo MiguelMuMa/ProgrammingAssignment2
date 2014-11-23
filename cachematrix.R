@@ -6,7 +6,7 @@
 ## will be used after by the fucntion that caches the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
-nv <- NULL
+inv <- NULL
     set <- function(y) {
         x <<- y
         inv <<- NULL
